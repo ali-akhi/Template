@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.galleryStyle{
+	text-align: center !important;
+}
+
+
+.galleryStyle img{
+	width: 100%;
+	height: 100%;
+	margin-top: 4%;
+}
+.node1Style, .node2Style, .node3Style{
+	height: 500px;
+	border-top: none;
+	font-family: 'Arvo', serif;
+	margin-bottom: 17% !important;
+	margin-top: 4% !important;
+}
+
+.galleryStyle header{
+	padding: 2%;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #4A5EE2;
+		font-family: 'Baloo Tamma 2', cursive;font-family: 'Baloo Tamma 2', cursive;
+	font-family: 'Lemonada', cursive;
+}
+
+
+.node1Style div{
+	padding: 3%;
+	height: auto;
+	text-align: left;
+	color: #0A0653;
+}
+
+.node2Style div{
+	padding: 3%;
+	height: auto;
+	text-align: left;
+	color: #0A0653;
+}
+
+.node3Style div{
+	padding: 3%;
+	height: auto;
+	text-align: left;
+	color: #0A0653;
+}
+
+.Post1Sttyle{
+	width: 100%;
+	height: 100%;
+	margin: auto !important;
+}
+
+.headtextStyle{
+	font-style: bold;
+	font-size: 2em;
+	text-decoration: none;
+	font-family: 'Baloo Tamma 2', cursive !important;
+	font-family: 'Lemonada', cursive !important;
+	padding:1%; 
+	color: #EE3E54;
+	text-shadow: 10px red;
+
+}
+
+.Post1Sttyle p{
+	padding: 3%;
+	font-size: 19px;
+	color: #34312f;
+	text-decoration: none;
+	line-height: 24px;
+	font-family: 'Baloo Tamma 2', cursive !important;
+	font-family: 'Caveat', cursive !important;
+	font-family: 'Lemonada', cursive !important;
+	font-family: 'Tenor Sans', sans-serif !important;
+
+}
+
+.headStyle{
+	font-size: 19px;
+	width: 100%;	
+	text-align: center;
+	padding: 1% 0 2% 0;
+	margin: 0;
+	color: #EE3E54;
+	font-weight: bold;
+	font-family: 'Baloo Tamma 2', cursive !important; 
+	font-family: 'Caveat', cursive !important;
+	font-family: 'Cinzel Decorative', cursive !important;
+
+}
+
+.btn-outline-primary{
+	float: right;
+}
+
+.Post1Sttyle img{
+
+	left: 0 !important;
+	padding: 0;
+	margin: 0;
+}

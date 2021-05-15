@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 	<!-- bootstrap 4 linked on project -->
+ 	<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0/bootstrap.min.css">
+
+    <!-- Theme style -->
+  <link rel="stylesheet" href="css/adminlte.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="css/Style.css">
+    <!-- template rtl version -->
+<!--   <link rel="stylesheet" href="css/custom-style.css"> -->
+    <link rel="stylesheet" href="css/bootstrap3-wysihtml5.min.css">
+
+
+	<title>
+	</title>
+</head>
+<body>
+     <section class="content">
+      <div class="row">
+        <div class="col-md-12">
+          <form class="md-form" action="" method="post" enctype="multipart/form-data">
+            <div class="card card-info card-outline">
+              <div class="card-header">
+                <h3 class="card-title text-center">
+                	Insert Photo and Title
+                </h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="file-upload">
+
+                  <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
+                  <div class="image-upload-wrap">
+                    <label></label>
+                    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" name="" />
+                    <div class="drag-text">
+                      <h3>Drag and drop a file or select add Image</h3>
+                    </div>
+                  </div>
+                  <div class="file-upload-content">
+                    <img class="file-upload-image" src="#" alt="your image" />
+                    <div class="image-title-wrap">
+                      <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-push">
+                  <input type="text" class="form-control form-control-lg" name="TitleVar" placeholder=""/>
+                </div>
+              </div>
+            </div>
+            <!-- /.card -->
+            <div class="card card-outline card-info">
+              <div class="card-header alert alert-success">
+                <h3 class="card-title text-center">
+					Write Body of Post
+                </h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body pad text-center">
+                <div class="mb-3">
+                  <div class="form-group">
+                    <textarea class="form-control" name="PstBdyVar" id="exampleFormControlTextarea1" rows="3" placeholder=""></textarea>
+                  </div>
+                </div>
+                <br>
+                <input type="submit" name="postSub" class="btn btn-danger col-3 " value="Send" >
+              </div>
+              </div>
+            </div>
+          </form>
+
+        </div>
+        <!-- /.col-->
+      </div>
+      <!-- ./row -->
+    </section>
+</body>
+</html>
+
+
+<!-- <div class="alert alert-danger alert-dismissible col-12">
+<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+<h5><i class="icon fa fa-ban"></i>warning</h5>
+have a eeror or warning!
+</div> -->

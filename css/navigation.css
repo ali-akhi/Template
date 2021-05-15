@@ -1,0 +1,154 @@
+nav {
+  margin: 50px auto;
+  width: 100%;
+  height: 40px;
+
+}
+
+/* list styles */
+nav ul {
+  width: 45%;
+  margin: 0px auto;
+  overflow: auto;
+  list-style: none;
+}
+
+nav ul li {
+  font-family: Open Sans, sans-serif;
+  font-size: 22px;
+  font-weight:300;
+  float: left;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-right: 1px solid #999;
+  text-decoration-style: none;
+}
+
+nav ul li:last-child {
+  border: none;
+  text-decoration: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #888;
+
+  /* transitions & animations
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease; */
+}
+
+nav ul li a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul li.active a {
+  color: #4A5EE2;
+  font-weight: normal;
+}
+
+
+.jumbotron{
+
+	padding: 0 !important;
+	margin: 0 !important;
+	height: 690px;
+	text-align: center;
+	background-color: white !important;
+	margin-bottom: 5% !important;
+		background-image: url(../image/andrej-lisakov-3A4XZUopCJA-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+}
+
+.textBanerStyle {
+	height: auto;
+	margin: 0 auto;
+	padding: 1%;
+	padding-top: 0;
+	text-align: left;
+	text-decoration: none;
+
+}
+
+.textBanerStyle p{
+	font-family: 'Baloo Tamma 2', cursive;
+	text-decoration: none;
+	padding: 1%;
+	line-height: 28px;
+	color: #34312f;
+	padding-bottom: 3%;
+	font-size: 1.5em;
+}
+
+.textBanerStyle header{
+	color: #4A5EE2;
+	text-align: left;
+	margin: 0;
+	font-family: 'Baloo Tamma 2', cursive;font-family: 'Baloo Tamma 2', cursive;
+	font-family: 'Lemonada', cursive;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-shadow: 10px white;
+	padding-bottom: 4%;
+}
+
+.mybtnStyle{
+	width: auto;
+	height: auto;
+	color: #F16362;
+	text-decoration:  none;
+	text-decoration-style: none;
+	position: relative;
+	overflow: hidden;
+	border:none;
+	padding: 1%;
+	font-size: 1pc;
+	float: right;
+}
+
+
+
+
+
+.mybtnStyle::before{
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 10px;
+	height: 10px;
+	border-bottom: 2px solid #888b94;
+	border-left: 2px solid #888b94;
+	border-radius: 2px;
+}
+
+.mybtnStyle::after{
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 10px;
+	height: 10px;
+	border-radius: 2px;
+	border-top: 2px solid #888b94;
+	border-right: 2px solid #888b94;
+}
+
+.mybtnStyle:hover{
+	text-decoration: none;
+	color: #0A0653;
+	transition: all 0.3s ease-in-out 0.4s;
+}
+
+.mybtnStyle:hover::before, a:hover::after{
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease-in-out;
+}
